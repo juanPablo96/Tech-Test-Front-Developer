@@ -12,11 +12,11 @@ Add at least one unit test that tests some of the developed functionalities.
 
 ### BONUS
 
-Use of observables and some of their operators (map, filter, reduce…)
-Use of Material
-Ensure that your page is optimized for speed and scalability
-Implement at least one security measure (such as protection against XSS or CSRF attacks).
-(Optional): Access to the device’s camera and integration with some simple MediaPipe functionality (https://developers.google.com/mediapipe) on one of the pages
+- Use of observables and some of their operators (map, filter, reduce…)
+- Use of Material
+- Ensure that your page is optimized for speed and scalability
+- Implement at least one security measure (such as protection against XSS or CSRF attacks).
+- (Optional): Access to the device’s camera and integration with some simple MediaPipe functionality (https://developers.google.com/mediapipe) on one of the pages
 
 ## GitHub Collaboration
 During development, create at least three commits to show how you manage version control and organize your work. Make sure your code is well-commented and organized.
