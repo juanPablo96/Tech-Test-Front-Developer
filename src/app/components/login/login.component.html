@@ -1,0 +1,27 @@
+<h2>Log In</h2>
+
+<section class="section_login">
+    <form action="">
+        <div class="card flex justify-content-center">
+            <img class="login_img" src="../../../assets/login_img.jpg" alt="login image">
+            <div class="p-float-label form_container_inpunt">
+                <input  type="text"pInputText id="username" [(ngModel)]="value"  name="username"/>
+                <label htmlFor="username">Username</label>
+            </div>
+            <div class="p-float-label form_container_inpunt">
+                <input  type="email"pInputText id="email" [(ngModel)]="value"  />
+                <label htmlFor="email">Email</label>
+            </div>
+            <div class="p-float-label form_container_inpunt">
+                <p-password [(ngModel)]="value" [feedback]="false"  name="password"></p-password>
+                <label for="password">Password</label>
+            </div>
+
+            <div class="card flex justify-content-center form-button" >
+                <p-button   size="small"label="Login"  severity="primary"(click)="login()"></p-button>
+            </div>
+            
+        </div>
+        
+    </form>
+</section>
