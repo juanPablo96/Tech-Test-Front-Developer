@@ -12,6 +12,7 @@ import { PasswordModule } from 'primeng/password';
 import { ButtonModule } from 'primeng/button';
 
 @NgModule({
+  // componentes
   declarations: [
     AppComponent,
     LoginComponent

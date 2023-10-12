@@ -1,19 +1,19 @@
 <h2>Log In</h2>
 
 <section class="section_login">
-    <form action="">
+    <form [formGroup]="formLogin"    action="">
         <div class="card flex justify-content-center">
             <img class="login_img" src="../../../assets/login_img.jpg" alt="login image">
             <div class="p-float-label form_container_inpunt">
-                <input  type="text"pInputText id="username" [(ngModel)]="value"  name="username"/>
+                <input  type="text"pInputText id="username" formControlName="username" autocomplete="off" />
                 <label htmlFor="username">Username</label>
             </div>
             <div class="p-float-label form_container_inpunt">
-                <input  type="email"pInputText id="email" [(ngModel)]="value"  />
+                <input  type="email" pInputText id="email" formControlName="email"  />
                 <label htmlFor="email">Email</label>
             </div>
             <div class="p-float-label form_container_inpunt">
-                <p-password [(ngModel)]="value" [feedback]="false"  name="password"></p-password>
+                <p-password  [feedback]="false" formControlName="password" ></p-password>
                 <label for="password">Password</label>
             </div>
 
